@@ -2,11 +2,7 @@ import React from "react";
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link,
-    Redirect,
-    useHistory,
-    useLocation
+    Route
 } from "react-router-dom";
 
 import "./scss/style.scss";
@@ -26,7 +22,6 @@ const App = () => {
                   </Route>
               </Switch>
           </Router>
-        <h1>Jolitos App</h1>
 
       </div>
 

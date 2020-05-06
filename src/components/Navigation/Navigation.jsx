@@ -1,16 +1,16 @@
 import React from "react";
 import "./Navigation.scss";
-import Logo from "../Logo";
+import Button from "../Button";
 
 const Navigation = () => {
     return(
         <nav className="nav">
             <ul className="nav-list">
                 <li className="nav-item">
-                    <button>All movies</button>
+                    <Button label="All movies"/>
                 </li>
                 <li className="nav-item">
-                    <button>My movies</button>
+                   <Button label="My movies"/>
                 </li>
             </ul>
         </nav>
