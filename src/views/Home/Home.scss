@@ -1,0 +1,33 @@
+.home-header {
+  @extend %container;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #13141a;
+  height: 157px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.home-container {
+  @extend %container;
+  min-height: 100vh;
+  padding-top: 157px;
+  z-index: 1;
+}
+
+.home-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+%container {
+  margin: 0 auto;
+  padding: 0 13px;
+  max-width: 1202px;
+  position: relative;
+}
